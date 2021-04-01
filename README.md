@@ -6,10 +6,11 @@ a nuclear meltdown.
 
 ![Homer Typing Bird](pics/homer_typing_bird.gif)
 
-When enabled, the mouse pointer will constantly follow a squared pattern.
+When enabled, the mouse pointer will constantly move following a squared pattern.
 
-Largely based on V-USB sample schematics, designed around an ATTiny85. Similar devices from the Tiny family can 
-probably be used as well without any or minimal modifications to the schematics.
+Largely based on [V-USB](https://www.obdev.at/products/vusb/index.html) sample schematics, designed around an ATTiny85. 
+Similar devices from the Tiny family can probably be used as well without any or minimal modifications to the 
+schematics.
 
 ![Schematics](pics/schematics.png)
 
@@ -52,6 +53,8 @@ cmake -DCMAKE_BUILD_TYPE=Release .. && make flash && make fuses
 ```
 
 If necessary, tune the CmakeList.txt variables AVRPROG and PROGDEVICE to your setup and repeat the above.
+
+Use this responsibly.
  
 
 
